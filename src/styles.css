@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --primary-color: #ff651c;
+  --dark-color: #373737;
+}
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  color: #555;
+}
+img {
+  max-width: 100%;
+}
+a {
+  color: var(--primary-color);
+}
+a:hover {
+  color: #cb612f;
+  text-decoration: none;
+}
+/* my primary color */
+.text-primary {
+  color: var(--primary-color) !important;
+}
+.text-dark {
+  color: var(--dark-color) !important;
+}
+/* my button styling */
+.colored-btn {
+  padding: 8px 20px;
+  border: 2px solid var(--primary-color);
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: ease all 0.3s;
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  box-shadow: 6px 6px 0 -1px var(--dark-color);
+}
+.colored-btn:hover {
+  color: #fff;
+  background: var(--dark-color);
+  border-color: var(--dark-color);
+  box-shadow: 5px 5px 0 -2px var(--primary-color);
+}
+.bg-gray {
+  background-color: rgba(254, 196, 72, 0.1);
+}
+.bg-dark {
+  background-color: var(--dark-color) !important;
+}
